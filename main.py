@@ -11,18 +11,17 @@ maze = [
     [1, 0, 1, 0, 1, 0, 1, 0],
     [1, 0, 1, 0, 0, 0, 0, 1],
     [0, 0, 1, 1, 0, 0, 0, 1],
-    [1, 0, 1, 1, 1, 1, 0, 0],
-    [1, 0, 1, 1, 0, 1, 0, 1]
+    [1, 0, 1, 1, 1, 1, 0, 1],
+    [1, 0, 1, 1, 0, 1, 0, 0]
 ]
 
 init_x = 1
 init_y = 0
 
-end_x = 1
-end_y = 3
+end_x = 7
+end_y = 7
 
-current_coord          = [init_y, init_x]
-filtered_current_coord = [init_y, init_x]
+current_coord = [init_y, init_x]
 
 ######### FIRST STEP #########
     
